@@ -281,8 +281,121 @@
     }
    
 
+}
+
+
+@media (max-width:480px) {
+    .main-container{
+        width:100%;
+        height:auto;
+        padding:15px;
     
+    }
+
+    .navbar{
+        width:100%;
+        padding-inline:32%;
+
+    }
+
+    .text-part{
+        height:auto;
+        padding:20px;
+    }
+
+    .text-part h1{
+        font-size:35px;
+    }
+
+    .navbar ul{
+        display:none;
+    }
+
+    .navbar h2{
+        font-size:35px;
+    }
+
+    #ul-1{
+        display:none;
+    } 
+
+    .btn-div{
+        width:100%;
+        height:auto;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        flex-direction: column;
+       
+    }
+    .btn-div ul{
+        
+        
+    }
+    .btn-div ul li{
+        list-style:none;
+        color:white;
+    }
+    .btn-div ul li label{
+        font-size:12px;
+        text-align: center;
+        
+        
+    }
+    .btn-div ul li button{
+        width:120px;
+        height:20px;
+       
+    }
+    .down-btn{
+      margin-block:10px;
+    }
+
+
+
+    .box-1 h1{
+        font-size:15px;
+    }
     
+    .box-2 h1{
+        font-size:15px;
+    }
+
+    .box-3 h1{
+        font-size:15px;
+    }
+
+    .box-4 h1{
+        font-size:15px;
+    }
+
+    
+    .box-1 h4{
+        display: none;
+    }
+    
+    .box-2 h4{
+       display:none;
+    }
+
+    .box-3 h4{
+      display:none
+    }
+
+    .box-4 h4{
+       display:none;
+    }
+
+    .down-text h1{
+        font-size:25px;
+    }
+
+    .down-text p{
+        font-size:15px;
+    }
+   
    
 }
+
+
 
